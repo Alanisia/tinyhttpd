@@ -2,8 +2,9 @@
 #define UTIL
 
 #include "struct.h"
-#include <stdio.h>
+#include "tags.h"
 
-typedef void (*print)(element);
+typedef void (*print)(v_ptr);
+typedef int (*compare)(v_ptr, v_ptr);
 
 #endif
